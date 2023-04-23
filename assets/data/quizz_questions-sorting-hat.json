@@ -1,0 +1,65 @@
+{
+    "title":"Qual a sua casa em Hogwarts?",
+    "questions":[
+      {
+        "id":1,
+        "question": "Você está indo para Hogwarts e precisa levar um pet, qual seria ele?",
+        "options":[
+          {"id": 1, "name":"Sapo", "alias":"H"},
+          {"id": 2, "name":"Coruja", "alias":"G"},
+          {"id": 3, "name":"Pufoso", "alias":"R"},
+          {"id": 4, "name":"Gato", "alias":"S"}
+        ]
+      },
+      {
+        "id":2,
+        "question": "Pensando em tudo que você pode aprender, quais são as matérias que tem mais interesse?",
+        "options":[
+          {"id": 1, "name":"Defesa Contra as Artes das Trevas e Vôo com vassouras", "alias":"G"},
+          {"id": 2, "name":"Herbologia e Trato das Criaturas Mágicas", "alias":"H"},
+          {"id": 3, "name":"Poções e Feitiços", "alias":"S"},
+          {"id": 4, "name":"Transfiguração e Adivinhação", "alias":"R"}
+        ]
+      },
+      {
+        "id":3,
+        "question": "Pense rápido!!! Alguém acabou de lançar um feitiço em você, qual contra-feitiço você grita de volta?",
+        "options":[
+          {"id": 1, "name":"PROTEGO!", "alias":"H"},
+          {"id": 2, "name":"EXPELLIARMUS!", "alias":"G"},
+          {"id": 3, "name":"ESTUPEFAÇA!", "alias":"R"},
+          {"id": 4, "name":"CRUCIO!", "alias":"S"}
+        ]
+      },
+      {
+        "id":4,
+        "question": "Pensando em sua personalidade, qual seria dessas seria uma de suas características?",
+        "options":[
+          {"id": 1, "name":"Sinceridade", "alias":"H"},
+          {"id": 2, "name":"Sagacidade", "alias":"R"},
+          {"id": 3, "name":"Bravura", "alias":"G"},
+          {"id": 4, "name":"Astúcia", "alias":"S"},
+          {"id": 4, "name":"Ambição", "alias":"S"},
+          {"id": 2, "name":"Inteligência", "alias":"R"},
+          {"id": 1, "name":"Paciência", "alias":"H"},
+          {"id": 3, "name":"Cavalheirismo", "alias":"G"}
+        ]
+      },
+      {
+        "id":5,
+        "question": "ATENÇÃO! Sabendo que o Chapéu Seletor leva sua vontade em consideração, qual casa você escolheria?",
+        "options":[
+          {"id": 1, "name":"Grifinória", "alias":"G"},
+          {"id": 2, "name":"Lufa-lufa", "alias":"H"},
+          {"id": 3, "name":"Corvinal", "alias":"R"},
+          {"id": 4, "name":"Sonserina", "alias":"S"}
+        ]
+      }
+    ],
+    "results":{
+      "G": "GRIFINÓRIA!",
+      "S": "SONSERINA!",
+      "R": "CORVINAL!",
+      "H": "LUFA-LUFA!"
+    }
+  }
