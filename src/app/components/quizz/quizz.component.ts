@@ -55,19 +55,19 @@ export class QuizzComponent implements OnInit {
       this.answerSelected = quizz_questions.results[finalAnswer as keyof typeof quizz_questions.results]
       
       if(finalAnswer === "G"){
-        this.photo = '/assets/imgs/Gryffindor.webp'  
+        this.photo = 'assets/imgs/Gryffindor.webp'  
         this.bgc = "griff"  
         document.body.classList.toggle('griffindor')
       }else if(finalAnswer === "S"){
-        this.photo = "/assets/imgs/Slytherin.webp"
+        this.photo = "assets/imgs/Slytherin.webp"
         this.bgc = "sly" 
         document.body.classList.toggle('slytherin')
       }else if(finalAnswer === "H"){
-        this.photo = "/assets/imgs/Hufflepuff.webp"
+        this.photo = "assets/imgs/Hufflepuff.webp"
         this.bgc = "huff" 
         document.body.classList.toggle('hufflepuff')        
       }else{
-        this.photo = "/assets/imgs/Ravenclaw.webp"
+        this.photo = "assets/imgs/Ravenclaw.webp"
         this.bgc = "rav" 
         document.body.classList.toggle('ravenclaw')
       }
