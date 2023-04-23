@@ -33,7 +33,7 @@
       },
       {
         "id":4,
-        "question": "Pensando em sua personalidade, qual seria dessas seria uma de suas características?",
+        "question": "Pensando em sua personalidade, qual dessas seria uma de suas características?",
         "options":[
           {"id": 1, "name":"Sinceridade", "alias":"H"},
           {"id": 2, "name":"Sagacidade", "alias":"R"},
