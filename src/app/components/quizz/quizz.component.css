@@ -1,0 +1,121 @@
+.quizz__container {
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.quizz_logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.quizz_logo h3 {
+    margin-top: 20px;
+}
+
+.quizz_questions {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #4224d9;
+    border-radius: 8px;
+    background-color: #644ed2;
+    width: 100%;
+    height: 200px;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.quizz_options {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: center;    
+    margin-bottom: 20px;
+}
+
+.btn-option {
+    background-color: transparent;
+    border-radius: 8px;
+    border: 1px solid #18ab29;
+    width: 50%;
+    display: inline-block;
+    cursor: pointer;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    padding: 16px 31px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #2f6627;
+    transition: .5s;
+}
+
+.btn-option:hover {
+    background-color: #5cbf2a;
+}
+
+.btn-option:active {
+    background-color: #2abf8d;
+    position: relative;
+    top: 1px;
+}
+
+.quizz_results {
+    width: 100%;
+    height: 580px;
+    border-radius: 10px;
+    padding: 20px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    transition: 5s;
+    filter: drop-shadow(5px 5px 26px #000);
+}
+
+img {
+    margin-top: 20px;
+    width: 250px;
+}
+
+.sly {
+    background: linear-gradient(90deg, rgb(33, 2, 57,1) 0%, rgba(25,60,20,1) 26%, rgba(21,48,18,1) 54%, rgba(25,60,20,1) 78%, rgba(47,102,39,1) 100%);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite alternate;
+}
+ 
+.griff {
+    background: linear-gradient(90deg, rgb(33, 2, 57,1) 0%, rgba(147,30,25,1) 26%, rgba(121,20,16,1) 54%, rgba(147,30,25,1) 78%, rgba(203,31,25,1) 100%);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite alternate;
+}
+
+.rav {
+    background: linear-gradient(90deg, rgb(33, 2, 57,1) 0%, rgba(14,60,130,1) 26%, rgba(11,43,92,1) 54%, rgba(14,60,130,1) 78%, rgba(11,48,105,1) 100%);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite alternate;
+}
+
+.huff {
+    background: linear-gradient(90deg, rgb(33, 2, 57,1) 0%, rgba(219,179,0,1) 26%, rgba(210,160,1,1) 54%, rgba(219,179,0,1) 78%, rgba(255,225,99,1) 100%);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite alternate;
+}
+
+
+@keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
