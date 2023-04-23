@@ -38,7 +38,11 @@
           {"id": 1, "name":"Sinceridade", "alias":"H"},
           {"id": 2, "name":"Sagacidade", "alias":"R"},
           {"id": 3, "name":"Bravura", "alias":"G"},
-          {"id": 4, "name":"Astúcia", "alias":"S"}
+          {"id": 4, "name":"Astúcia", "alias":"S"},
+          {"id": 4, "name":"Ambição", "alias":"S"},
+          {"id": 2, "name":"Inteligência", "alias":"R"},
+          {"id": 1, "name":"Paciência", "alias":"H"},
+          {"id": 3, "name":"Cavalheirismo", "alias":"G"}
         ]
       },
       {
