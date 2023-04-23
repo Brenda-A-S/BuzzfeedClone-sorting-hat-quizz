@@ -94,6 +94,12 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {
+            "baseHref":"/BuzzfeedClone-sorting-hat-quizz/"
+          }
         }
       }
     }
