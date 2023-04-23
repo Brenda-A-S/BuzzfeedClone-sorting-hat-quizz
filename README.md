@@ -2,7 +2,7 @@
 
 Esse projeto foi desenvolvido durante o bootcamp Potência Tech Angular Developer - Powered by iFood da DIO(Digital Innovation One) com o Framework Angular. Consiste na criação de um Quizz com utilização dos conceitos aprendidos durante o bootcamp. A temática que escolhi é: Qual a sua casa de Hogwarts?
 
-Acesse o site e faça o seu teste através do link: 
+Acesse o site e faça o seu teste através do link: [https://brenda-a-s.github.io/BuzzfeedClone-sorting-hat-quizz/](https://brenda-a-s.github.io/BuzzfeedClone-sorting-hat-quizz/)
 
 # 📌 Linguagens / Tecnologias Utilizadas
 
