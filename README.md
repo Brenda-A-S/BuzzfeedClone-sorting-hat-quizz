@@ -36,7 +36,7 @@ Além disso, foi utilizado o seguinte Framework para tornar as páginas dinâmic
  
  # :link: Links úteis
 * [Plataforma da DIO](https://www.dio.me/)
-* [Formação CSS Web Developer](https://web.dio.me/track/formacao-css-web-developer)
+* [Potência Tech Angular Developer - Powered by iFood](https://web.dio.me/track/potencia-tech-angular-developer-powered-ifood)
 * [Meu LinkedIn](https://www.linkedin.com/in/brenda-antunes-silva/)
 * This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.2.
 
